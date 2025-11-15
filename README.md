@@ -74,8 +74,9 @@ scrape_configs:
 
 ## 1. Запуск Grafana
 
-# Быстрый запуск
-docker run -d -p 3000:3000 --name grafana grafana/grafana:latest
 
-# Или с Docker Compose
-docker-compose up -d
+
+1. **Запустите Grafana** (например, через Docker, systemd или вручную).  
+   При использовании Docker:
+   ```bash
+   docker run -d -p 3000:3000 --name=grafana grafana/grafana
