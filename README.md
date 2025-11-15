@@ -51,12 +51,12 @@ http://localhost:3000
 
 **Перейдите в Configuration → Data Sources → Add data source** 
 
-**Выберите Prometheus и укажите URL: **  
+**Выберите Prometheus и укажите URL:**  
 http://localhost:9090
  
  
 
-**Нажмите Save & Test **
+**Нажмите Save & Test**
 
 ## ⚙️ Пример конфигурации Prometheus
 
