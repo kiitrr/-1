@@ -40,21 +40,18 @@
    ```bash
    docker run -d -p 3000:3000 grafana/grafana
 ---
-###Откройте веб-интерфейс:
+**Откройте веб-интерфейс:
 http://localhost:3000  
 
-Войдите с логином и паролем по умолчанию:   
+**Войдите с логином и паролем по умолчанию:   
 
     Логин: admin  
     Пароль: admin
      
 
-Перейдите в Configuration → Data Sources → Add data source 
+**Перейдите в Configuration → Data Sources → Add data source 
 
-Выберите Prometheus и укажите URL:   
- 
- 
-1
+**Выберите Prometheus и укажите URL:   
 http://localhost:9090
  
  
