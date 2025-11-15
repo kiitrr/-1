@@ -69,12 +69,11 @@ scrape_configs:
     # Добавляем метку 'environment' ко всем метрикам из этой задачи
     labels:
       environment: "production"
-```baA
+```bash
 ### 🚀 Краткая инструкция: Запуск и подключение Grafana
 
 ## 1. Запуск Grafana
 
-```bash
 # Быстрый запуск
 docker run -d -p 3000:3000 --name grafana grafana/grafana:latest
 
