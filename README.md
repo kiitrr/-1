@@ -39,6 +39,27 @@
 1. **Запустите Grafana** (например, через Docker):  
    ```bash
    docker run -d -p 3000:3000 grafana/grafana
+---
+###Откройте веб-интерфейс:
+http://localhost:3000  
+
+Войдите с логином и паролем по умолчанию:   
+
+    Логин: admin  
+    Пароль: admin
+     
+
+Перейдите в Configuration → Data Sources → Add data source 
+
+Выберите Prometheus и укажите URL:   
+ 
+ 
+1
+http://localhost:9090
+ 
+ 
+
+Нажмите Save & Test 
 
 ## ⚙️ Пример конфигурации Prometheus
 
